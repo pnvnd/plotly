@@ -1,2 +1,2 @@
 # plotly
-Repository for Plotly code
+Repository for Plotly code.
