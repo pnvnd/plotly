@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.offline as pyo
 import plotly.graph_objs as go
 
-df = pd.read_csv('data/covidtesting.csv')
+df = pd.read_csv('csv/covidtesting.csv')
 # print(df.head())
 
 #df2 = df[df['Reported Date'] > '2021-01-01']
@@ -28,4 +28,4 @@ for item in list:
 layout = go.Layout(title="Ontario COVID Data")
 
 fig = go.Figure(data=data, layout=layout)
-pyo.plot(fig, filename="line2.html")
+pyo.plot(fig, filename="html/line2.html")

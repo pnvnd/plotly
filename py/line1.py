@@ -40,4 +40,4 @@ layout = go.Layout(
 
 fig = go.Figure(data=data, layout=layout)
 
-pyo.plot(fig, filename="line1.html")
+pyo.plot(fig, filename="html/line1.html")
