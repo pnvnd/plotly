@@ -45,4 +45,4 @@ data3 = [
 
 # fig = go.Figure(data=data4, layout=layout)
 
-pyo.plot(data3)
+pyo.plot(data3, filename = "html/box.html")
